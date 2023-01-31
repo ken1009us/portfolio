@@ -13,7 +13,7 @@ import img4 from "../public/img4.png";
 import { useState } from "react";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   return (
     <div className={darkMode ? "dark": ""}>
       <Head>
@@ -28,7 +28,7 @@ export default function Home() {
             <h1 className="text-xl font-burtons dark:text-white">DEVELOPED BY KEN WU</h1>
             <ul className='flex items-center'>
               <li>
-                <BsMoonFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl" />
+                <BsMoonFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl dark:text-white" />
               </li>
               <li>
                 {/* <a className="bg-gradient-to-r from-cyan-500 to-teal-500 bg-cyan-500 text-white px-4 py-2 rounded-md ml-8"
@@ -50,8 +50,7 @@ export default function Home() {
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white ">Software Engineer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white">
-              A software engineering intern at PhysIQ 
-              while pursuing the master&apos;s degree at UIUC.
+              A current second-year UIUC IS graduate student and a startup software engineering intern
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-1 text-gray-700 dark:text-white">
