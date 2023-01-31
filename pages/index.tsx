@@ -123,17 +123,17 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white">My project screenshots</h3>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1">
-              <Image src={img1} alt="" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="response"/>
+            <div className="basis-1/3 flex-1" style={{ width: "100%", height: "100%", position: "relative" }}>
+              <Image src={img1} alt="" className="rounded-lg object-cover" layout="response"/>
             </div>
-            <div className="basis-1/3 flex-1">
-              <Image src={img2} alt="" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="response"/>
+            <div className="basis-1/3 flex-1" style={{ width: "100%", height: "100%", position: "relative" }}>
+              <Image src={img2} alt="" className="rounded-lg object-cover" layout="response"/>
             </div>
-            <div className="basis-1/3 flex-1">
-              <Image src={img3} alt="" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="response"/>
+            <div className="basis-1/3 flex-1" style={{ width: "100%", height: "100%", position: "relative" }}>
+              <Image src={img3} alt="" className="rounded-lg object-cover" layout="response"/>
             </div>
-            <div className="basis-1/3 flex-1">
-              <Image src={img4} alt="" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="response"/>
+            <div className="basis-1/3 flex-1" style={{ width: "100%", height: "100%", position: "relative" }}>
+              <Image src={img4} alt="" className="rounded-lg object-cover" layout="response"/>
             </div>
           </div>
         </section>
