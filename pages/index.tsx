@@ -80,7 +80,7 @@ export default function Home() {
               <Image src={python} alt="" width={80} height={80}/>
               <h3 ><a href="http://newsflow-website.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="bg-gray-700 text-white rounded-md px-4 py-2">Newsflow</a></h3>
                 <p className="p-6">
-                  A img app that display the trending news and a search bar 
+                  A web app that display the trending news and a search bar 
                   for users to type any words related to their desired news or articles and countries.
                 </p>
               <h4 className="py-4 text-teal-600">Language and tools I use</h4>
@@ -94,7 +94,7 @@ export default function Home() {
               <Image src={javascript} alt="" width={80} height={80}/>
               <h3 ><a href="https://www.youtube.com/watch?v=xnb59A2XoEk" target="_blank" rel="noopener noreferrer" className="bg-gray-700 text-white rounded-md px-4 py-2">Group buy</a></h3>
                 <p className="p-6">
-                  A imgsite to help individuals identify the products they want to buy and share with other people, 
+                  A website to help individuals identify the products they want to buy and share with other people, 
                   as well as to help them save money and make shopping easier.
                 </p>
               <h4 className="py-4 text-teal-600">Language and tools I use</h4>
