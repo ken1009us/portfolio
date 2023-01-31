@@ -1,6 +1,6 @@
 This is my portfolio built with TypeScript, Next.js and Tailwind CSS .
 
-[Click here!](https://portfolio-one-dun-20.vercel.app/)
+<a href="https://portfolio-one-dun-20.vercel.app/" target="_blank">Click here!</a>
 
 ## Getting Started
 
