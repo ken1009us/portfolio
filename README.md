@@ -1,5 +1,7 @@
 This is my portfolio built with TypeScript, Next.js and Tailwind CSS .
 
+[Click here!](https://portfolio-one-dun-20.vercel.app/)
+
 ## Getting Started
 
 First install latest LTS version.
