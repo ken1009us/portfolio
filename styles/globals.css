@@ -33,3 +33,28 @@ a {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
 }
+
+@font-face {
+  font-family: "tarrget";
+  src: url("../public/TarrgetCondensed.otf");
+}
+
+@font-face {
+  font-family: "bomberEscort";
+  src: url("../public/BomberEscort.otf");
+}
+
+@font-face {
+  font-family: "futureForces";
+  src: url("../public/FutureForces.otf");
+}
+
+@font-face {
+  font-family: "paladins";
+  src: url("../public/Paladins.otf");
+}
+
+@font-face {
+  font-family: "blackthorns";
+  src: url("../public/Blackthorns.otf");
+}
