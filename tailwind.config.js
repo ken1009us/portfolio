@@ -9,6 +9,11 @@ module.exports = {
     extend: {
       fontFamily: {
         burtons: "burtons",
+        tarrget: "tarrget",
+        bomberEscort: "bomberEscort",
+        futureForces: "futureForces",
+        paladins: "paladins",
+        blackthorns: "blackthorns"
       }
     },
   },
