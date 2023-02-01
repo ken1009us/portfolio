@@ -1,10 +1,12 @@
 This is my portfolio built with TypeScript, Next.js and Tailwind CSS .
 
-<a href="https://portfolio-one-dun-20.vercel.app/" target="_blank">Click here!</a>
+<a href="https://portfolio-ken1009us.vercel.app/" target="_blank">Click here!</a>
 
 ## Getting Started
 
-First install latest LTS version.
+From the developer side:
+
+First, install the latest LTS version.
 
 ```bash
 $ nvm install --lts
