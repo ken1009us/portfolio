@@ -6,11 +6,14 @@ import Image from "next/image";
 import ken from "../public/ken.png";
 import python from "../public/python.png";
 import javascript from "../public/javascript.png";
+import pandas from "../public/pandas.png";
 import java from "../public/java.png";
 import img1 from "../public/img1.png";
 import img2 from "../public/img2.png";
 import img3 from "../public/img3.png";
 import img4 from "../public/img4.png";
+import img5 from "../public/img5.png";
+import img6 from "../public/img6.png";
 
 
 export default function Home() {
@@ -113,6 +116,50 @@ export default function Home() {
                 <p className="text-gray-800 py-1">Command Line Interface</p>
             </div>
           </div>
+          <div className="lg:flex gap-10 font-blackthorns">
+            <div className="text-center shadow-2xl p-10 rounded-xl my-10 dark:bg-gray-300">
+              <Image src={python} alt="" width={80} height={80}/>
+              <h3 ><a href="https://github.com/ken1009us/data-analysis-of-bike-sharing" target="_blank" rel="noopener noreferrer" className="bg-gray-700 text-white rounded-md px-4 py-2">Data analysis of bike Sharing</a></h3>
+                <p className="p-6">
+                This project aims to enhance bike sharing data analysis on Kaggle 
+                and investigate additional details by adding two hypotheses to make it more thorough.
+                </p>
+              <h4 className="py-4 text-teal-600">Language and tools I use</h4>
+                <p className="text-gray-800 py-1">Python</p>
+                <p className="text-gray-800 py-1">Scipy</p>
+                <p className="text-gray-800 py-1">Numpy</p>
+                <p className="text-gray-800 py-1">Pandas</p>
+                <p className="text-gray-800 py-1">Matplotlib</p>
+            </div>
+            <div className="text-center shadow-2xl p-10 rounded-xl my-10 dark:bg-gray-300">
+              <Image src={python} alt="" width={80} height={80}/>
+              <h3 ><a href="https://github.com/ken1009us/machine-learning-project" target="_blank" rel="noopener noreferrer" className="bg-gray-700 text-white rounded-md px-4 py-2">Category predictor ML project</a></h3>
+                <p className="p-6">
+                In this project, artificial intelligence will be trained to recognize different news or article categories, 
+                such as video games, food, international, etc.
+                </p>
+              <h4 className="py-4 text-teal-600">Language and tools I use</h4>
+                <p className="text-gray-800 py-1">Python</p>
+                <p className="text-gray-800 py-1">Keras</p>
+                <p className="text-gray-800 py-1">Tensorflow</p>
+                <p className="text-gray-800 py-1">Pandas</p>
+                <p className="text-gray-800 py-1">Matplotlib</p>
+            </div>
+            <div className="text-center shadow-2xl p-10 rounded-xl my-10 dark:bg-gray-300">
+              <Image src={python} alt="" width={80} height={80}/>
+              <h3 ><a href="https://ken1009us.github.io/meteorite-visualization/" target="_blank" rel="noopener noreferrer" className="bg-gray-700 text-white rounded-md px-4 py-2">Meteorite Visualization</a></h3>
+                <p className="p-6">
+                  Create a visualization of the meteorite dataset and offer different analyses 
+                  based on the data's content.
+                </p>
+              <h4 className="py-4 text-teal-600">Language and tools I use</h4>
+                <p className="text-gray-800 py-1">Python</p>
+                <p className="text-gray-800 py-1">Vega-Lite</p>
+                <p className="text-gray-800 py-1">HTML</p>
+                <p className="text-gray-800 py-1">Pandas</p>
+                <p className="text-gray-800 py-1">Numpy</p>
+            </div>
+          </div>
         </section>
         <section>
           <div>
@@ -130,6 +177,12 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1 shadow-2xl" style={{ width: "100%", height: "100%", position: "relative" }}>
               <Image src={img4} alt="" className="rounded-lg object-cover" layout="response"/>
+            </div>
+            <div className="basis-1/3 flex-1 shadow-2xl" style={{ width: "100%", height: "100%", position: "relative" }}>
+              <Image src={img5} alt="" className="rounded-lg object-cover" layout="response"/>
+            </div>
+            <div className="basis-1/3 flex-1 shadow-2xl" style={{ width: "100%", height: "100%", position: "relative" }}>
+              <Image src={img6} alt="" className="rounded-lg object-cover" layout="response"/>
             </div>
           </div>
         </section>
