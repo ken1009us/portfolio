@@ -150,7 +150,7 @@ export default function Home() {
               <h3 ><a href="https://ken1009us.github.io/meteorite-visualization/" target="_blank" rel="noopener noreferrer" className="bg-gray-700 text-white rounded-md px-4 py-2">Meteorite Visualization</a></h3>
                 <p className="p-6">
                   Create a visualization of the meteorite dataset and offer different analyses 
-                  based on the data's content.
+                  based on the data&apos;s content.
                 </p>
               <h4 className="py-4 text-teal-600">Language and tools I use</h4>
                 <p className="text-gray-800 py-1">Python</p>
