@@ -1,12 +1,11 @@
 import { BsMoonFill } from "react-icons/bs";
-import { AiFillLinkedin, AiFillGithub, AiFillYoutube} from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub, AiFillYoutube, AiOutlineMail} from "react-icons/ai";
 import { useState } from "react";
 import Head from "next/head"
 import Image from "next/image";
 import ken from "../public/ken.png";
 import python from "../public/python.png";
 import javascript from "../public/javascript.png";
-import pandas from "../public/pandas.png";
 import java from "../public/java.png";
 import img1 from "../public/img1.png";
 import img2 from "../public/img2.png";
@@ -56,26 +55,25 @@ export default function Home() {
             <a href="https://github.com/ken1009us" target="_blank" rel="noopener noreferrer"><AiFillGithub /></a>
             <a href="https://www.linkedin.com/in/shwu02/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin /></a>
             <a href="https://www.youtube.com/channel/UC7oQEyY_YekhD6M1CuzDXDw" target="_blank" rel="noopener noreferrer"><AiFillYoutube /></a>
+            <a href="mailto:shwu2@illinois.edu"><AiOutlineMail /></a>
           </div>
-          {/* <div className="relative mx-auto bg-gradient-to-b from-gray-300 rounded-full w-60 h-60 mt-20 overflow-hidden md:h-96 md:w-96"> */}
           <div className="relative mx-auto bg-gradient-to-b from-gray-300 rounded-full w-80 h-80 mt-12 overflow-hidden md:h-80 md:w-80">
-            {/* <Image src={ken} alt="" layout="fill" objectFit="cover"/> */}
             <Image src={ken} alt=""/>
           </div>
         </section>
         <section>
           <div className="pt-10">
-            <h3 className="text-center text-3xl font-bomberEscort py-10 dark:text-white">My work experience:</h3>
+            <h3 className="text-center text-3xl font-bomberEscort py-10 dark:text-white">About me:</h3>
             <p className="text-md px-8 pb-10 font-blackthorns leading-8 text-gray-800 dark:text-white">
-              - Replaced makefile with noxfile by using <span className="text-orange-700 dark:text-teal-500">Python</span><br />
-              - Programmed <span className="text-orange-700 dark:text-teal-500">YAML</span> file to integrate CI jobs with nox; Improved shell-based testing and reduced CI runtime by twenty-five percent<br />
-              - Constructed Python functions to query some data through <span className="text-orange-700 dark:text-teal-500">JSON</span> pipeline; Generated test files to check the output<br />
-              - Solved validation issue and created test function in <span className="text-orange-700 dark:text-teal-500">rest-api</span> repository by programming <span className="text-orange-700 dark:text-teal-500">Kotlin</span> function<br />
-              - Created a <span className="text-orange-700 dark:text-teal-500">Slack bot</span> using <span className="text-orange-700 dark:text-teal-500">JavaScript</span> and <span className="text-orange-700 dark:text-teal-500">Node.js</span> to instantly respond to questions from employees and save time
+              I am a second-year M.S. student in information science at the University of Illinois Urbana-Champaign. 
+              Currently, I am employed at PhysIQ as a software engineering intern, where I integrate and migrate pipelines and resolve API issues such as validation. 
+              Previously, I worked on several projects, including the NewsFlow website, which was built with Python and the Dash framework. 
+              I also created another shopping-related website using JavaScript, React framework, Google Cloud Platform, and MySQL. 
+              Additionally, I created a Slackbot to address the company onboarding issue.
             </p>
           </div>
           <h3 className="text-center text-3xl py-10 font-bomberEscort dark:text-white">My projects</h3>
-          <div className="lg:flex gap-10 font-blackthorns">
+          <div className="grid grid-cols-3 gap-10 font-blackthorns">
             <div className="text-center shadow-2xl p-10 rounded-xl my-10 dark:bg-gray-300">
               <Image src={python} alt="" width={80} height={80}/>
               <h3 ><a href="http://newsflow-website.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="bg-gray-700 text-white rounded-md px-4 py-2">Newsflow</a></h3>
@@ -116,13 +114,13 @@ export default function Home() {
                 <p className="text-gray-800 py-1">Command Line Interface</p>
             </div>
           </div>
-          <div className="lg:flex gap-10 font-blackthorns">
+          <div className="grid grid-cols-3 gap-10 font-blackthorns">
             <div className="text-center shadow-2xl p-10 rounded-xl my-10 dark:bg-gray-300">
               <Image src={python} alt="" width={80} height={80}/>
               <h3 ><a href="https://github.com/ken1009us/data-analysis-of-bike-sharing" target="_blank" rel="noopener noreferrer" className="bg-gray-700 text-white rounded-md px-4 py-2">Data analysis of bike Sharing</a></h3>
                 <p className="p-6">
-                This project aims to enhance bike sharing data analysis on Kaggle 
-                and investigate additional details by adding two hypotheses to make it more thorough.
+                  This project enhances bike sharing data analysis on Kaggle, 
+                  investigating additional details with two added hypotheses.
                 </p>
               <h4 className="py-4 text-teal-600">Language and tools I use</h4>
                 <p className="text-gray-800 py-1">Python</p>
@@ -135,8 +133,8 @@ export default function Home() {
               <Image src={python} alt="" width={80} height={80}/>
               <h3 ><a href="https://github.com/ken1009us/machine-learning-project" target="_blank" rel="noopener noreferrer" className="bg-gray-700 text-white rounded-md px-4 py-2">Category predictor ML project</a></h3>
                 <p className="p-6">
-                In this project, artificial intelligence will be trained to recognize different news or article categories, 
-                such as video games, food, international, etc.
+                  This project trains artificial intelligence to categorize news or articles into different categories, 
+                  such as video games, food, international, etc.
                 </p>
               <h4 className="py-4 text-teal-600">Language and tools I use</h4>
                 <p className="text-gray-800 py-1">Python</p>
@@ -149,8 +147,7 @@ export default function Home() {
               <Image src={python} alt="" width={80} height={80}/>
               <h3 ><a href="https://ken1009us.github.io/meteorite-visualization/" target="_blank" rel="noopener noreferrer" className="bg-gray-700 text-white rounded-md px-4 py-2">Meteorite Visualization</a></h3>
                 <p className="p-6">
-                  Create a visualization of the meteorite dataset and offer different analyses 
-                  based on the data&apos;s content.
+                  Create a meteorite dataset visualization with various analyses based on the data&apos;s content.
                 </p>
               <h4 className="py-4 text-teal-600">Language and tools I use</h4>
                 <p className="text-gray-800 py-1">Python</p>
