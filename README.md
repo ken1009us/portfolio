@@ -2,7 +2,7 @@ This is my portfolio built with TypeScript, Next.js and Tailwind CSS .
 
 <a href="https://portfolio-ken1009us.vercel.app/" target="_blank">Click here!</a>
 
-## Getting Started
+## Getting Started (Development)
 
 From the developer side:
 
