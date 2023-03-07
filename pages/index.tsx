@@ -110,7 +110,7 @@ export default function Home() {
                 <p className="p-6">
                 This is a classic Snake Game creating by Java. 
                 The game allows the player to control a snake that moves around the screen, eating food and growing longer with each food item. 
-                The player must avoid hitting the snake's own body.
+                The player must avoid hitting the snake&apos;s own body.
                 </p>
               <h4 className="py-4 text-teal-600">Language and tools I use</h4>
                 <p className="text-gray-800 py-1">Java</p>
